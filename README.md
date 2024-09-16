@@ -1,13 +1,24 @@
-About Me
-Highly skilled web and app developer with expertise in building scalable, efficient, and visually appealing applications using a range of technologies. Proficient in both front-end and back-end development, with a strong focus on delivering high-quality products that meet and exceed expectations.
+Hi, I'm Karnav Prajapati 👋
 
-Technical Skills
+Welcome to my GitHub profile! I'm a passionate Web and Mobile Developer with a strong focus on creating intuitive and responsive applications. Here’s a bit about me and what I specialize in:
+
+💻 Skills & Technologies
+
 Web Development
-HTML: Expert-level proficiency in writing semantic, accessible, and responsive HTML5 code.
-CSS: Highly skilled in crafting modular, reusable, and efficient CSS3 stylesheets using preprocessors like Sass and Less.
-JavaScript: Proficient in writing clean, modular, and efficient JavaScript code using modern frameworks and libraries like React and Next.js.
-App Development
-Flutter: Expert-level proficiency in building fast, scalable, and visually appealing mobile applications using Flutter.
-Frameworks and Libraries
-React JS: Highly skilled in building reusable UI components and managing state changes using React Hooks and Context API.
-Next JS: Proficient in building server-side rendered (SSR) and statically generated websites using Next.js.
+
+HTML5: Crafting well-structured, semantic content for the web.
+CSS3: Styling web pages with modern practices.
+Tailwind CSS: Building responsive and customizable designs with utility-first CSS.
+JavaScript: Adding interactive and dynamic elements to web applications.
+ReactJS: Developing dynamic, component-based user interfaces for web applications.
+Next.js: Creating optimized, server-side rendered, and static web applications with ease.
+
+📫 Get in Touch
+
+Email: karnav.p.018@gmail.com
+
+
+💬 Let's Connect
+
+I’m always excited to discuss new projects, ideas, and opportunities. Don’t hesitate to reach out if you’d like to collaborate or just chat about tech!
+

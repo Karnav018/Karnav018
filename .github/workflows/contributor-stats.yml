@@ -1,0 +1,31 @@
+name: Update Contributor Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  contributor-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contributor stats
+        uses: HwangTaehyun/github-contributor-stats/action@main
+        with:
+          username: karnav018
+          output-file: github-contributor-stats.svg
+          combine-all-yearly-contributions: "true"
+          hide-contributor-rank: "false"
+          rate-limit-delay-ms: "100"
+
+      - name: Commit generated SVG
+        uses: actions4git/add-commit-push@v1
+        with:
+          message: "chore: update GitHub contributor stats"

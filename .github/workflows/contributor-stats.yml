@@ -18,6 +18,8 @@ jobs:
 
       - name: Generate contributor stats
         uses: HwangTaehyun/github-contributor-stats/action@main
+        env:
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN || github.token }}
         with:
           username: karnav018
           output-file: github-contributor-stats.svg
